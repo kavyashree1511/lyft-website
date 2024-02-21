@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyft Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
+</head>
+
+<body>
+    <div class="master_container">
+        <div class="navbar">
+            <div class="navbar_left">
+                <div class="navbar_left_image">
+                <img src="images/logo.svg" alt="Logo" class="navbar_left_logo"></div>
+                <div class="navbar_right_image">
+                <button class="navbar_left_button">Get a ride</button></div>
+            </div>
+            <div class="navbar_right">
+                <ul class="navbar_right_ul">
+                    <li class="navbar_right_ul_item">DRIVER</li>
+                    <li class="navbar_right_ul_item">RIDER</li>
+                    <li class="navbar_right_ul_item">BUSINESS</li>
+                    <li class="navbar_right_ul_item">LOG IN</li>
+                    <li class="navbar_right_ul_item">SIGN UP</li>
+                </ul>
+            </div>
+        </div>
+        <div class="header_container">
+            <div class="header_left">
+                <img src="https://images.ctfassets.net/q8mvene1wzq4/1V7KEdm8GVuIRx1fHaCovZ/eafdba3bb2b13c73c0f79f2533a4fb6e/home_pinkpaint_hero.jpg?w=2500&q=60&fm=webp"
+                    alt="Image 1" class="header_left_image">
+            </div>
+            <div class="header_right">
+                <h1 class="header_right_heading">Let's ride</h1>
+                <div class="header_right_button_div">
+                    <button class="header_left_button">Apply to drive</button>
+                    <button class="header_right_button">Sign up to drive</button>
+                </diV>
+            </div>
+        </div>
+        <div class="company_container">
+            <div class="company_left">
+                <h4 class="company_left_heading">DRIVE WITH LYFT</h4>
+                <h1 class="company_left_setHours">Set your own hours. Earn on your own terms.</h1>
+                <ul class="company_left_ul">
+                    <li class="company_left_ul_li">
+                        <!-- <div class="company_left_ul_li_icon">@</div> -->
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDMyIDMyIiBzdHlsZT0iZmlsbDpjdXJyZW50Q29sb3IiIGFyaWEtaGlkZGVuPSJ0cnVlIiBmb2N1c2FibGU9ImZhbHNlIj48cGF0aCBkPSJNMyA2LjM3djE1LjU1OGgyNlY2LjM3SDNabTI0LjQwNSAxMC41NjNhNC4yMzUgNC4yMzUgMCAwIDAtMy4zNyAzLjM3SDcuOTY1YTQuMjM1IDQuMjM1IDAgMCAwLTMuMzctMy4zN3YtNS41OThhNC4yMzUgNC4yMzUgMCAwIDAgMy4zNy0zLjM3aDE2LjA3YTQuMjM1IDQuMjM1IDAgMCAwIDMuMzcgMy4zN3Y1LjU5OFptMS41MzUgNy4xMDFIMy4wM3YxLjU5NWgyNS45MXYtMS41OTVaIi8+CiAgICA8cGF0aCBkPSJNMTYgMTguMTA2YTMuOTcyIDMuOTcyIDAgMSAwIDAtNy45NDQgMy45NzIgMy45NzIgMCAwIDAgMCA3Ljk0NFoiLz48L3N2Zz4="
+                            alt="company_left_ul_li_img" class="company_left_ul_li_icon">
+                        <div class="company_left_ul_li_info">
+                            <p class="company_left_ul_li_info_heading">Reliable earnings:</p>
+                            <p class="company_left_ul_li_info_para">Make money, keep your tips, and cash out when you
+                                want.</p>
+                        </div>
+                    </li>
+                    <li class="company_left_ul_li">
+                        <!-- <div class="company_left_ul_li_icon">@</div> -->
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDMyIDMyIiBzdHlsZT0iZmlsbDpjdXJyZW50Q29sb3IiIGFyaWEtaGlkZGVuPSJ0cnVlIiBmb2N1c2FibGU9ImZhbHNlIj48cGF0aCBkPSJNMjQuMzUxIDYuMDI3YTEzLjAyNSAxMy4wMjUgMCAwIDAtMy45ODctMi4yODJsLS41NDQgMS41MzNhMTEuMzMxIDExLjMzMSAwIDAgMSAzLjQ4OSAxLjk5NmwxLjA0Mi0xLjI0N1ptMy45MTIgNS42MjFhMTIuOTI3IDEyLjkyNyAwIDAgMC0yLjI4LTMuOTlsLTEuMjQ4IDEuMDQ1YTExLjMzNyAxMS4zMzcgMCAwIDEgMS45OTggMy40ODlsMS41My0uNTQ0WiIvPgogICAgPHBhdGggZD0ibTI4Ljg0IDEzLjg4NC0xLjYwNS4yNjRhMTEuMzkyIDExLjM5MiAwIDAgMS0xMS4yMjUgMTMuMjNBMTEuMzkgMTEuMzkgMCAwIDEgNC42MzYgMTYgMTEuMzkgMTEuMzkgMCAwIDEgMTcuODY1IDQuNzc0bC4yNjMtMS42MDNBMTMuMDEyIDEzLjAxMiAwIDAgMCAzIDE2YTEzLjAxNSAxMy4wMTUgMCAwIDAgMTIuOTk4IDEzQTEzLjAxMiAxMy4wMTIgMCAwIDAgMjkgMTZjLjAwMy0uNzA4LS4wNS0xLjQxNi0uMTYtMi4xMTZaIi8+CiAgICA8cGF0aCBkPSJNMTQuOTk1IDguNTAxdjguNTEzaDYuNTQzdi0yLjAzMWgtNC41MTFWOC41aC0yLjAzMloiLz48L3N2Zz4="
+                            alt="company_left_ul_li_img" class="company_left_ul_li_icon">
+                        <div class="company_left_ul_li_info">
+                            <p class="company_left_ul_li_info_heading">A flexible schedule:</p>
+                            <p class="company_left_ul_li_info_para">Be your own boss and drive whenever it works for
+                                you.</p>
+                        </div>
+                    </li>
+                    <li class="company_left_ul_li">
+                        <!-- <div class="company_left_ul_li_icon">@</div> -->
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDMyIDMyIiBzdHlsZT0iZmlsbDpjdXJyZW50Q29sb3IiIGFyaWEtaGlkZGVuPSJ0cnVlIiBmb2N1c2FibGU9ImZhbHNlIj48cGF0aCBkPSJNMjQuMjUgMTMuNmgtNi42VjNsLTkuOSAxNS4zaDYuNlYyOWw5LjktMTUuNFptLTEzLjYgMy4xIDUuNC04LjN2Ni44aDUuM2wtNS40IDguNHYtNi45aC01LjNaIi8+PC9zdmc+"
+                            alt="company_left_ul_li_img" class="company_left_ul_li_icon">
+                        <div class="company_left_ul_li_info">
+                            <p class="company_left_ul_li_info_heading">Get paid instantly:</p>
+                            <p class="company_left_ul_li_info_para">Cash out your earnings whenever you want.</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="company_left_button_div">
+                    <button class="company_left_button">Apply to drive</button>
+                    <!-- <button class="company_right_button">How driver pays work</button> -->
+                    <p class="company_right_para_div">How driver pays work</p>
+                </div>
+            </div>
+            <div class="company_right">
+                <img src="https://images.ctfassets.net/q8mvene1wzq4/2qig3wGIPssGl5C9tS0Lrt/f68bb064f872385abc6e95606cb0794e/home_pinkpaint_driver.jpg?w=1500&q=60&fm=webp"
+                    alt="company_right_image" class="company_right_image">
+            </div>
+        </div>
+        <div class="company_header_bottom">
+            <div class="company_card">
+                <img src="https://images.ctfassets.net/q8mvene1wzq4/5rz5QNSF3JN4ruKqGQBhiC/6f9196a1bcf65d6ba63470d197308e05/mary_driver.png?w=300&q=60&fm=webp"
+                    alt="card_image" class="company_card_image">
+                <p class="company_card_para">“My motto is very simple. It doesn't cost you a penny to be nice and kind,
+                    but it will cost you
+                    everything if you're not. If I'm free and somebody needs my help, I'll be the first one to jump in,
+                    in a heartbeat.”</p>
+                <h4 class="company_card_heading">— Mary</h4>
+                <p class="company_header_bottom_para">Driving with Lyft since 2019</p>
+            </div>
+            <div class="company_card">
+                <img src="https://images.ctfassets.net/q8mvene1wzq4/4XI9Rg1V0ZbIZyKFoTIxuf/8e09c8a25c576532136755f5bcebde45/harold_driver.png?w=300&q=60&fm=webp"
+                    alt="card_image" class="company_card_image">
+                <p class="company_card_para_student">“As a student, it’s hard to complete my class work around a
+                    schedule. I started driving more with Lyft and realized it was the perfect opportunity to make money
+                    and work on my own time! Driving with Lyft gives me freedom in my schedule to focus on school, which
+                    is my main priority.”</p>
+                <h4>— Harold</h4>
+                <p class="company_header_bottom_para">Driving with Lyft since 2020</p>
+            </div>
+            <div class="company_card">
+                <img src="https://images.ctfassets.net/q8mvene1wzq4/3Hn90lN9DlHkIX1tcsM8bK/917b4043e2a08907a8e07668821a98c8/christine_driver.png?w=300&q=60&fm=webp"
+                    alt="card_image" class="company_card_image">
+                <p class="company_card_disable">“I'm a disabled Marine Corps veteran, and because of my disability, I'm
+                    no longer able to work in a structured environment. The few hours a week that I drive connects me to
+                    my community and gives me extra money to help make ends meet.”</p>
+                <h4>— Christine</h4>
+                <p class="company_header_bottom_para">Driving with Lyft since 2016</p>
+            </div>
+        </div>
+    </div>
+    <div class="company_bottom_container">
+        <div class="company_bottom_container_left">
+            <h4 class="company_bottom_container_left_heading">DRIVE WITH LYFT</h4>
+            <h1 class="company_bottom_container_left_ready">Ready, set, go
+                in just a few quick taps</h1>
+            <ul class="company_bottom_container_left_ul">
+                <li class="company_bottom_container_left_ul_li">
+
+                    <div class="company_bottom_container_left_ul_li_information">
+                        <p class="company_bottom_container_left_ul_li_info_heading">No matter your destination, we’ll
+                            get you where you need to go</p>
+                        <!-- <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDMyIDMyIiBzdHlsZT0iZmlsbDp2YXIoLS1jb3JlLXVpLXRoZW1lLXRleHQtcHJpbWFyeSx2YXIoLS1jb3JlLXVpLWNvbG9yLXRleHQtcHJpbWFyeSkpIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZm9jdXNhYmxlPSJmYWxzZSI+PHBhdGggZD0iTTQuOCAyNS42aDUuOVYyOWgxLjd2LTUuMUg0Ljh2MS43Wk0xNy41IDhDMTguOSA4IDIwIDYuOSAyMCA1LjVTMTguOSAzIDE3LjUgMyAxNSA0LjEgMTUgNS41IDE2LjEgOCAxNy41IDhaIi8+CiAgICA8cGF0aCBkPSJNMjUuMyA1LjRzLS42IDEuMi0yLjUgMi42Yy0xLjEuOC0yLjYgMS4zLTQgMS4zaC0yLjdjLTIuMiAwLTQuMiAxLjItNS4zIDMuMS0xLjQgMi42LTEuOSA0LjMtMS45IDQuNGwyLjEuNXMuNC0xLjYgMS43LTMuOWMuNC0uNyAxLTEuMyAxLjgtMS42VjI5aDIuMXYtOS44aDEuOVYyOWgyLjFWMTEuMmMxLjItLjMgMi40LS43IDMuNC0xLjUgMi40LTEuNyAzLjEtMy4yIDMuMi0zLjRsLTEuOS0uOVoiLz48L3N2Zz4=" alt="company_bottom_container_left_ul_li_img" class="company_bottom_container_left_ul_li_icon"> -->
+                        <div class="company_bottom_container_left_ul_li_info">
+                            <p class="company_bottom_container_left_ul_li_info_para">
+                                Get a reliable ride in minutes</p>
+                        </div>
+                </li>
+                <li class="company_bottom_container_left_ul_li">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDMyIDMyIiBzdHlsZT0iZmlsbDp2YXIoLS1jb3JlLXVpLXRoZW1lLXRleHQtcHJpbWFyeSx2YXIoLS1jb3JlLXVpLWNvbG9yLXRleHQtcHJpbWFyeSkpIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZm9jdXNhYmxlPSJmYWxzZSI+PHBhdGggZD0iTTI0LjExOSA1LjY5VjNoLTEuNTk0djIuNjlIOS40NzVWM0g3Ljg4MXYyLjY5SDYuMjg3QzQuNDk0IDUuNjkgMyA3LjA4NCAzIDguOTc3VjI5aDIyLjcxM0MyNy41MDYgMjkgMjkgMjcuNTA2IDI5IDI1LjcxM1Y1LjY5aC00Ljg4MVpNNi4yODcgNy4yODRoMS41OTR2Mi40OWgxLjU5NHYtMi40OWgxMy4wNXYyLjQ5aDEuNTk0di0yLjQ5aDMuMjg3djQuNjgySDQuNTk0VjguOTc3YzAtLjk5Ni43OTctMS42OTMgMS42OTMtMS42OTNabTE5LjQyNiAyMC4xMjJINC41OTNWMTMuNDZoMjIuODEzdjEyLjE1M2MwIC45OTYtLjc5NyAxLjc5My0xLjY5MyAxLjc5M1oiLz4KICAgIDxwYXRoIGQ9Ik0yNC4xMTkgMjAuNzMyaC00LjM4M3Y0LjM4M2g0LjM4M3YtNC4zODNaIi8+PC9zdmc+"
+                        alt="company_bottom_container_left_ul_li_img" class="company_bottom_container_left_ul_li_icon">
+                    <div class="company_bottom_container_left_ul_li_info">
+                        <p class="company_bottom_container_left_ul_li_info_para">Schedule your ride in advance</p>
+                    </div>
+                </li>
+                <li class="company_bottom_container_left_ul_li">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDMyIDMyIiBzdHlsZT0iZmlsbDp2YXIoLS1jb3JlLXVpLXRoZW1lLXRleHQtcHJpbWFyeSx2YXIoLS1jb3JlLXVpLWNvbG9yLXRleHQtcHJpbWFyeSkpIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZm9jdXNhYmxlPSJmYWxzZSI+PHBhdGggZD0ibTkuNDMxIDE5LjQyOC0uNy0xLjI1OS0uNyAxLjI2YTguNzM3IDguNzM3IDAgMCAxLTMuNDQyIDMuNDdsLTEuMjU5LjY3MSAxLjI2LjdhOC44MDcgOC44MDcgMCAwIDEgMy40NyAzLjQ3bC43IDEuMjYuNy0xLjI2YTguODA3IDguODA3IDAgMCAxIDMuNDctMy40N2wxLjI1OS0uNy0xLjI2LS43YTguNjMxIDguNjMxIDAgMCAxLTMuNDk4LTMuNDQyWm0tLjcgNi40NjVBOS45MjIgOS45MjIgMCAwIDAgNi40MzggMjMuNmE5LjkyMyA5LjkyMyAwIDAgMCAyLjI5NS0yLjI5NSA5LjkyNiA5LjkyNiAwIDAgMCAyLjI5NCAyLjI5NSA5LjkyNCA5LjkyNCAwIDAgMC0yLjI5NCAyLjI5NFptLjY3Mi0xNC44MDVhOS45NzggOS45NzggMCAwIDEgNC4wMy00LjAzQTEwLjIyMSAxMC4yMjEgMCAwIDEgOS40MDMgM2MtLjkyMyAxLjcwNy0yLjM1IDMuMTA3LTQuMDU4IDQuMDU4YTEwLjIyIDEwLjIyIDAgMCAxIDQuMDU4IDQuMDNabTE4LjIyIDMuNjY3YTE5LjAyIDE5LjAyIDAgMCAxLTcuNTg1LTcuNTg1bC0uNy0xLjI2LS43IDEuMjZhMTguNjc0IDE4LjY3NCAwIDAgMS03LjU4NCA3LjU4NWwtMS4yNTkuNyAxLjI2LjY5OWExOS4wMTkgMTkuMDE5IDAgMCAxIDcuNTg0IDcuNTg0bC43IDEuMjYuNy0xLjI2YTE4LjY3NSAxOC42NzUgMCAwIDEgNy41ODQtNy41ODRsMS4yNi0uNy0xLjI2LS43Wm0tOC4yODQgNy4wNTJhMjAuNTQgMjAuNTQgMCAwIDAtNi4zNTMtNi4zNTMgMjAuNTQxIDIwLjU0MSAwIDAgMCA2LjM1My02LjM1MyAyMC41NDQgMjAuNTQ0IDAgMCAwIDYuMzUzIDYuMzUzIDIwLjg0NiAyMC44NDYgMCAwIDAtNi4zNTMgNi4zNTNaIi8+PC9zdmc+"
+                        alt="company_bottom_container_left_ul_li_img" class="company_bottom_container_left_ul_li_icon">
+                    <div class="company_bottom_container_left_ul_li_info">
+                        <p class="company_bottom_container_left_ul_li_info_para">Earn rewards on every ride</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="company_bottom_container_company_left_button_div">
+                <button class="company_bottom_container_company_left_button">Get a ride</button>
+                <p class="company_bottom_container_company_right_para">Learn more about riding with lyft</p>
+            </div>
+        </div>
+        
+       <div class="company_bottom_container_right">
+            <img src="https://images.ctfassets.net/q8mvene1wzq4/2R3M8S6ZIA7SXbMsCkxvMI/182aa15b6e4d059f3ac5d2fa530a235e/rider_stylized_text_image__2___1_.png?w=1500&q=60&fm=webp"
+                alt="company_bottom_company_right_image" class="company_bottom_container_company_right_image">
+        </div>
+    </div>
+    <div class="web_container">
+        <div class="web_container_left">
+            <img src="https://images.ctfassets.net/q8mvene1wzq4/1H8Zw8AkZvMYqLkWnBjO3f/a2406a01c7a91b37f78c427326006fa8/Lyft_Pink_Image_V3.jpg?w=1500&q=60&fm=webp"
+                alt="web_container_left_img" class="web_container_left_image">
+        </div>
+        <div class="web_container_right">
+            <h4 class="web_container_right_heading">
+                We’re rolling out the red carpet</h4>
+            <p class="web_container_right_para">Join the new Lyft Pink to enjoy complimentary upgrades to Priority
+                Pickup, exclusive savings, and preferential pricing on Lux, XL, and Preferred rides. Members save an
+                average of $23/month.</p>
+            <ul class="web_container_right_ul">
+                <li class="web_container_right_ul_li">
+                    <!-- <div class="web_container_left_ul_li_icon">@</div> -->
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDMyIDMyIiBzdHlsZT0iZmlsbDp2YXIoLS1jb3JlLXVpLXRoZW1lLXRleHQtcHJpbWFyeSx2YXIoLS1jb3JlLXVpLWNvbG9yLXRleHQtcHJpbWFyeSkpIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZm9jdXNhYmxlPSJmYWxzZSI+PHBhdGggZD0iTTI0LjI1IDEzLjZoLTYuNlYzbC05LjkgMTUuM2g2LjZWMjlsOS45LTE1LjRabS0xMy42IDMuMSA1LjQtOC4zdjYuOGg1LjNsLTUuNCA4LjR2LTYuOWgtNS4zWiIvPjwvc3ZnPg=="
+                        alt="web_container_left_ul_li_img" class="company_left_ul_li_icon">
+                    <div class="web_container_left_ul_li_info">
+                        <p class="web_container_left_ul_li_info_heading">Free Priority Pickup upgrades</p>
+                        <p class="web_container_left_ul_li_info_para">Get picked up faster and save $3-4 per ride on
+                            average</p>
+                    </div>
+                </li>
+                <li class="web_container_right_ul_li">
+                    <!-- <div class="web_container_left_ul_li_icon">@</div> -->
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDMyIDMyIiBzdHlsZT0iZmlsbDp2YXIoLS1jb3JlLXVpLXRoZW1lLXRleHQtcHJpbWFyeSx2YXIoLS1jb3JlLXVpLWNvbG9yLXRleHQtcHJpbWFyeSkpIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZm9jdXNhYmxlPSJmYWxzZSI+PHBhdGggZD0ibTkuNDMxIDE5LjQyOC0uNy0xLjI1OS0uNyAxLjI2YTguNzM3IDguNzM3IDAgMCAxLTMuNDQyIDMuNDdsLTEuMjU5LjY3MSAxLjI2LjdhOC44MDcgOC44MDcgMCAwIDEgMy40NyAzLjQ3bC43IDEuMjYuNy0xLjI2YTguODA3IDguODA3IDAgMCAxIDMuNDctMy40N2wxLjI1OS0uNy0xLjI2LS43YTguNjMxIDguNjMxIDAgMCAxLTMuNDk4LTMuNDQyWm0tLjcgNi40NjVBOS45MjIgOS45MjIgMCAwIDAgNi40MzggMjMuNmE5LjkyMyA5LjkyMyAwIDAgMCAyLjI5NS0yLjI5NSA5LjkyNiA5LjkyNiAwIDAgMCAyLjI5NCAyLjI5NSA5LjkyNCA5LjkyNCAwIDAgMC0yLjI5NCAyLjI5NFptLjY3Mi0xNC44MDVhOS45NzggOS45NzggMCAwIDEgNC4wMy00LjAzQTEwLjIyMSAxMC4yMjEgMCAwIDEgOS40MDMgM2MtLjkyMyAxLjcwNy0yLjM1IDMuMTA3LTQuMDU4IDQuMDU4YTEwLjIyIDEwLjIyIDAgMCAxIDQuMDU4IDQuMDNabTE4LjIyIDMuNjY3YTE5LjAyIDE5LjAyIDAgMCAxLTcuNTg1LTcuNTg1bC0uNy0xLjI2LS43IDEuMjZhMTguNjc0IDE4LjY3NCAwIDAgMS03LjU4NCA3LjU4NWwtMS4yNTkuNyAxLjI2LjY5OWExOS4wMTkgMTkuMDE5IDAgMCAxIDcuNTg0IDcuNTg0bC43IDEuMjYuNy0xLjI2YTE4LjY3NSAxOC42NzUgMCAwIDEgNy41ODQtNy41ODRsMS4yNi0uNy0xLjI2LS43Wm0tOC4yODQgNy4wNTJhMjAuNTQgMjAuNTQgMCAwIDAtNi4zNTMtNi4zNTMgMjAuNTQxIDIwLjU0MSAwIDAgMCA2LjM1My02LjM1MyAyMC41NDQgMjAuNTQ0IDAgMCAwIDYuMzUzIDYuMzUzIDIwLjg0NiAyMC44NDYgMCAwIDAtNi4zNTMgNi4zNTNaIi8+PC9zdmc+"
+                        alt="web_container_left_ul_li_img" class="web_container_left_ul_li_icon">
+                    <div class="web_container_left_ul_li_info">
+                        <p class="web_container_left_ul_li_info_heading">Exclusive savings</p>
+                        <p class="web_container_left_ul_li_info_para">Enjoy 5% off on Extra Comfort and Lyft XL rides
+                        </p>
+                    </div>
+                </li>
+                <li class="web_container_right_ul_li">
+                    <!-- <div class="web_container_left_ul_li_icon">@</div> -->
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDMyIDMyIiBzdHlsZT0iZmlsbDp2YXIoLS1jb3JlLXVpLXRoZW1lLXRleHQtcHJpbWFyeSx2YXIoLS1jb3JlLXVpLWNvbG9yLXRleHQtcHJpbWFyeSkpIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZm9jdXNhYmxlPSJmYWxzZSI+PHBhdGggZD0iTTE1Ljk3MiAzIDQgNi4yMDV2MTAuMjE4YzAgNS41MDMgMy4wODQgNy42NSA3LjQ2NyAxMC4wNjhMMTYuMDAyIDI5bDQuNTM1LTIuNTFjNC4zNTQtMi40NDggNy40NjgtNC41OTUgNy40NjgtMTAuMDY3VjYuMjA1TDE1Ljk3MiAzWm0xMC4zNyAxMy40MjNjMCA0LjY1Ni0yLjUxIDYuMzgtNi42MjEgOC42NzdsLTMuNzQ5IDIuMDg2LTMuNzQ5LTIuMDg2Yy00LjE0Mi0yLjI5OC02LjYyLTQuMDItNi42Mi04LjY3N1Y3LjQ0NGwxMC4zNy0yLjc4MSAxMC4zNjkgMi43ODF2OC45OFoiLz4KICAgIDxwYXRoIGQ9Ik0xNC45NzQgOC40MTJWOS41NmMtMS41NzIuMTgyLTIuNzUuOTY4LTMuMjY1IDIuMjA3LS40NTMgMS4xMTktLjIxMSAyLjM1OS42MzUgMy4xNDUuODQ3Ljc4NiAyLjExNy45MzcgMy4zNTYgMS4wODguOTY4LjEyIDEuOTk1LjI0MiAyLjQ4LjY2NS4yMS4xODEuMjcxLjUxNC4xNS44NzctLjI0Mi42NjUtLjk5NyAxLjA1OC0yLjA1NiAxLjA1OC0xLjc4MyAwLTIuNTctLjYzNS0yLjg0MS0uOTA3bC0xLjQ1MiAxLjM2Yy40MjQuNDU0IDEuMzYgMS4xOCAyLjk5MyAxLjQ1MnYxLjIwOWgxLjk5NnYtMS4xNDljMS44MTQtLjIxMiAyLjg0Mi0xLjMgMy4yMzUtMi4yOTguNDIzLTEuMTE4LjE1LTIuMzI3LS43MjYtMy4wODMtLjk2Ny0uODE2LTIuMzI4LS45OTgtMy41NjctMS4xMTktLjg3Ny0uMDktMS44NDUtLjIxMS0yLjIwNy0uNTQ0LS4yNDItLjIxMi0uMzAzLS41NzUtLjE1Mi0uOTM3LjI0Mi0uNjM1Ljk5OC0uOTk4IDIuMDI2LS45OTggMS43ODQgMCAyLjYuNjM1IDIuODQyLjkzN2wxLjQ4MS0xLjM2Yy0uNDIzLS40NTQtMS4zMy0xLjE4LTIuOTMyLTEuNDUxdi0xLjI0aC0xLjk5NnYtLjA2WiIvPjwvc3ZnPg=="
+                        alt="web_container_left_ul_li_img" class="web_container_left_ul_li_icon">
+                    <div class="web_container_left_ul_li_info">
+                        <p class="web_container_left_ul_li_info_heading">Cancellation forgiveness</p>
+                        <p class="web_container_left_ul_li_info_para">Cancel up to 3x/month for free</p>
+                    </div>
+                </li>
+                <li class="web_container_right_ul_li">
+                    <!-- <div class="web_container_left_ul_li_icon">@</div> -->
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDMyIDMyIiBzdHlsZT0iZmlsbDp2YXIoLS1jb3JlLXVpLXRoZW1lLXRleHQtcHJpbWFyeSx2YXIoLS1jb3JlLXVpLWNvbG9yLXRleHQtcHJpbWFyeSkpIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZm9jdXNhYmxlPSJmYWxzZSI+PHBhdGggZD0iTTExLjg3IDkuODU3VjNoLTEuNjAxdjYuODU3SDcuMTdWM2gtMS42djkuMzk4YzAgMi4xMjMgMS41NjYgMi44ODkgMi43ODQgMy41MTUgMS4xNS41NTcgMS44MS45NCAxLjkxNSAxLjg0NVYyOWgxLjZWMTcuNzU4Yy4xMDUtLjg3Ljc2Ny0xLjI1MyAxLjkxNS0xLjgxIDEuMjUzLS42MjcgMi44Mi0xLjM5MiAyLjgyLTMuNTE2VjNoLTEuNjAydjYuODU3SDExLjg3Wm0xLjE4MyA0LjY2NGMtLjY2MS4zMTMtMS40MjcuNjk2LTEuOTg0IDEuMzIyLS41NTctLjYyNi0xLjMyMi0xLjAwOS0xLjk4NC0xLjM1Ny0xLjIxOC0uNjI3LTEuOTE0LTEuMDEtMS45MTQtMi4wODh2LS45NGg3Ljc5N3YuOTRjMCAxLjExMy0uNjk3IDEuNDk2LTEuOTE1IDIuMTIzWk0yNS42MTggM2E2LjY4NCA2LjY4NCAwIDAgMC02LjY4MiA2LjY4M3YxMS4xMDNoNS4wNDZjLjQ1MyAwIC44MzYuMzgzLjgzNi44MzVWMjloMS42VjNoLS44Wm0tLjggMTYuMzI0Yy0uMjQ0LS4xMDUtLjU1Ny0uMTQtLjgzNi0uMTRoLTMuNDQ1di05LjVhNS4wNiA1LjA2IDAgMCAxIDQuMjgtNS4wMTJ2MTQuNjUzWiIvPjwvc3ZnPg=="
+                        alt="web_container_left_ul_li_img" class="web_container_left_ul_li_icon">
+                    <div class="web_container_left_ul_li_info">
+                        <p class="web_container_left_ul_li_info_heading">Free Grubhub+ for a year</p>
+                        <p class="web_container_left_ul_li_info_para">$0 restaurant delivery fees</p>
+                    </div>
+                </li>
+            </ul>
+            <!-- <div class="web_container_right_button_div"> -->
+            <button class="web_container_right_button">Get your 1st month free</button>
+            <p class="web_container_right_subject">Subject to the Lyft Pink Terms & Conditions and Lyft Terms of
+                Service. </p>
+        </div>
+    </div>
+    <div class="container_div">
+        <div class="container_div_top">
+            <h1 class="container_div_heading">
+                Ride. Bike. Scoot. Go bananas.</h1>
+            <p class="container_div_para">We’ve got options to get you where you’re going. Choose a ride* that suits
+                your mood and budget.</p>
+        </div>
+        <div class="container_div_bottom">
+            <div class="container_div_bottom_box_1">
+                <h3 class="container_div_bottom_box_1_heading">Wait & Save</h3>
+                <img src="https://media.istockphoto.com/id/469150434/photo/illustration-of-transportation-technology-car-performance-concep.jpg?s=2048x2048&w=is&k=20&c=Lv4Mpswnxtaz0E7AStY-TBZ5UT-nK2mZZ_mCAKjxI4w="
+                    alt="container_div_bottom_box_1_image" class="container_div_bottom_box_1_img">
+                <p class="container_div_bottom_box_1_head">Budget-friendly</p>
+                <p class="container_div_bottom_box_1_para">Privately</p>
+            </div>
+            <div class="container_div_bottom_box_2">
+                <h3 class="container_div_bottom_box_2_heading">Lyft</h3>
+                <img src="https://media.istockphoto.com/id/185406370/photo/combi-car-in-studio-isolated-with-clipping-path.jpg?s=612x612&w=0&k=20&c=cmGIE7-u2vO00SdfqmI_-EQdv5lVuUs2ZzX8aIm5cy0="
+                    alt="container_div_bottom_box_2_image" class="container_div_bottom_box_1_img">
+                <p class="container_div_bottom_box_2_head">Efficient</p>
+                <p class="container_div_bottom_box_2_para">Private</p>
+            </div>
+            <div class="container_div_bottom_box_3">
+                <h3 class="container_div_bottom_box_3_heading">Bikes & Scooters</h3>
+                <img src="https://media.istockphoto.com/id/182149836/photo/mountain-bike-front.webp?b=1&s=170667a&w=0&k=20&c=yn7tnpBNusD8_f6EupYOLnOl9aDY3rpCwUrasAvzAMI="
+                    alt="container_div_bottom_box_3_image" class="container_div_bottom_box_1_img">
+                <p class="container_div_bottom_box_3_head">Efficient</p>
+                <p class="container_div_bottom_box_3_para">Eco-friendly</p>
+            </div>
+            <div class="container_div_bottom_box_4">
+                <h3 class="container_div_bottom_box_4_heading">Priority Pickup</h3>
+                <img src="https://media.istockphoto.com/id/1150931120/photo/3d-illustration-of-generic-compact-white-car-front-side-view.jpg?s=2048x2048&w=is&k=20&c=ujAD8tOtX3keHXDCKQE3wgUZL4ohl6AQkGF06m0MziE="
+                    alt="container_div_bottom_box_4_image" class="container_div_bottom_box_1_img">
+                <p class="container_div_bottom_box_4_head">Efficient</p>
+                <p class="container_div_bottom_box_4_para">Private</p>
+            </div>
+        </div>
+        <p class="container_div_bottom_para">*Availability of bikes, scooters, rentals, ride types, and transit
+            information varies by region.</p>
+    </div>
+    <div class="main_container">
+        <div class="main_container_left">
+            <img src="https://images.ctfassets.net/q8mvene1wzq4/3tEhujwTqY4G4LXZ0yZltF/c544aaffe54de76aacce746d9db34d9b/home_pinkpaint_safety.jpg?w=1500&q=60&fm=webp"
+                alt="main_container_left_image" class="main_container_left_img">
+        </div>
+        <div class="main_container_right">
+            <h4 class="main_container_right_heading">SAFETY FIRST</h4>
+            <h1 class="main_container_right_head">Your safety comes first. Always.</h1>
+            <p class="main_container_right_para">We look out for you before, during, and after every single ride. And we
+                monitor rides to help you get where you need to go. If you ever need it, we’re standing by, ready to
+                help.</p>
+            <div class="main_container_right_div">
+            <button class="main_container_right_button">Learn about safety</button>
+                <p class="main_container_right_paragraph">Community guidelines</p>
+            </div>
+        </div>
+    </div>
+    <div class="main_container_div">
+        <div class="main_container_div_left">
+            <h4 class="main_container_div_left_head">
+                Making millions of rides more accessible</h4>
+            <p class="main_container_div_left_para">A ride is more than just a ride. It's a gateway to opportunities and
+                jobs. A connection to community. And access to essentials like groceries, healthcare, and polling
+                places. Our Lyft Up initiative makes rides more accessible for millions, and helps bring communities
+                even closer.</p>
+            <p class="main_container_div_left_paragraph">Learn about our Lyft Up programs</p>
+        </div>
+        <div class="main_container_div_right">
+            <img src="https://images.ctfassets.net/q8mvene1wzq4/4sWP94iWODBwQzOY6rFn0N/f34033d586a917eb2dc63209cb23d955/20210717_Lyft_HealthClinic_V4.jpg?w=1500&q=60&fm=webp"
+                alt="main_container_div_right_image" class="main_container_div_right_img">
+        </div>
+    </div>
+    <div class="footer_section">
+        <img src="https://images.ctfassets.net/q8mvene1wzq4/3WkSLIffcV7OYpUgMpBwJ7/6951147bed1e0844f7eeeb9785cf84ba/Lyft_Business_Pink.svg?w=&q=60&fm="
+            alt="footer_section_image" class="footer_section_img">
+        <h1 class="footer_section_heading">We help move people</h1>
+        <p class="footer_section_para">From affordable transportation solutions to effortless expensing, we’ll help
+            drive your business forward by
+            getting your people where they need to go.</p>
+        <button class="footer_section_button">Learn more</button>
+        <div class="footer_section_logo">
+            <img src="https://images.ctfassets.net/q8mvene1wzq4/2qouu5dgmPIwFAfymqAaCt/51f6420ce20948a7b32a51576b64f061/airbnb.svg?w=320&q=60&fm="
+                alt="footer_section_image" class="footer_section_image">
+            <img src="https://images.ctfassets.net/q8mvene1wzq4/6vP6ET09OOpnoGeOyWv5sh/1c438dc20c31182f865597eeda7aebec/ascension.svg?w=320&q=60&fm="
+                alt="footer_section_image" class="footer_section_image">
+            <img src="https://images.ctfassets.net/q8mvene1wzq4/6HPCN4MZjLDYxRyNLkr8UB/fc1d2e75a7775ece3ecab814a20338d4/delta.svg?w=320&q=60&fm="
+                alt="footer_section_image" class="footer_section_image">
+        </div>
+    </div>
+    <div class="subfooter_section">
+        <div class="subfooter_section_div">
+            <h4 class="subfooter_section_div_head">DRIVER</h4>
+            <p class="subfooter_section_div_para">Become a Driver</p>
+            <p class="subfooter_section_div_para">New Driver Guide</p>
+            <p class="subfooter_section_div_para">Earnings</p>
+            <p class="subfooter_section_div_para">Cities</p>
+            <p class="subfooter_section_div_para">Help</p>
+            <p class="subfooter_section_div_para">Safety</p>
+            <p class="subfooter_section_div_para">Application Requirements</p>
+            <p class="subfooter_section_div_para">Express Drive</p>
+            <p class="subfooter_section_div_para">Bonus</p>
+            <p class="subfooter_section_div_para">Lyft Rewards</p>
+            <p class="subfooter_section_div_para">Driving Opportunities</p>
+            <p class="subfooter_section_div_para">Go Electric</p>
+            <p class="subfooter_section_div_para">Insurance</p>
+            <p class="subfooter_section_div_para">Driver Blog</p>
+        </div>
+        <div class="subfooter_section_div">
+            <h4 class="subfooter_section_div_head">RIDER</h4>
+            <p class="subfooter_section_div_para">Sign up to ride</p>
+            <p class="subfooter_section_div_para">Lyft Pink</p>
+            <p class="subfooter_section_div_para">Cities</p>
+            <p class="subfooter_section_div_para">Help</p>
+            <p class="subfooter_section_div_para">Safety</p>
+            <p class="subfooter_section_div_para">Business Profile</p>
+            <p class="subfooter_section_div_para">Rewards</p>
+            <p class="subfooter_section_div_para">Events</p>
+            <p class="subfooter_section_div_para">Airports</p>
+            <p class="subfooter_section_div_para">Lyft Cards</p>
+            <p class="subfooter_section_div_para">Gift Family</p>
+            <p class="subfooter_section_div_para">Donate</p>
+        </div>
+        <div class="subfooter_section_div">
+            <h4 class="subfooter_section_div_head">LYFT</h4>
+            <p class="subfooter_section_div_para">Careers</p>
+            <p class="subfooter_section_div_para">Lyft Up</p>
+            <p class="subfooter_section_div_para">Business</p>
+            <p class="subfooter_section_div_para">Healthcare</p>
+            <p class="subfooter_section_div_para">Bikes</p>
+            <p class="subfooter_section_div_para">Scooters</p>
+            <p class="subfooter_section_div_para">Autonomous</p>
+            <p class="subfooter_section_div_para">Lyft Media</p>
+            <p class="subfooter_section_div_para">Developers</p>
+            <p class="subfooter_section_div_para">Newsroom</p>
+            <p class="subfooter_section_div_para">Press</p>
+            <p class="subfooter_section_div_para">Investor Relations</p>
+        </div>
+        <div class="subfooter_section_button">
+            <button class="subfooter_section_button_left">Lyft Driver App</button>
+            <button class="subfooter_section_button_right">Lyft Rider App</button>
+        </div>
+    </div>
+    <div class="subfooter_sectiom_bottom">
+        <ul class="subfooter_section_bottom_items">
+            <li class="subfooter_section_bottom_list">Terms</li>
+            <li class="subfooter_section_bottom_list">Privacy</li>
+            <li class="subfooter_section_bottom_list">Accessibility Statement</li>
+            <li class="subfooter_section_bottom_list">Your Privacy Choices</li>
+            <li class="subfooter_section_bottom_list">2024 Lyft,Inc.</li>
+            <li class="subfooter_section_bottom_list">CPUC ID No.TCP0032513-P</li>
+            <li class="subfooter_section_bottom_list">
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2IiBzdHlsZT0iZmlsbDpjdXJyZW50Q29sb3IiIGFyaWEtaGlkZGVuPSJ0cnVlIiBmb2N1c2FibGU9ImZhbHNlIj48cGF0aCBkPSJNNS40MDMgMTMuMzc2YzUuMjgzIDAgOC4xNzItNC4zNzcgOC4xNzItOC4xNzMgMC0uMTI0IDAtLjI0OC0uMDA4LS4zNzFBNS44NDQgNS44NDQgMCAwIDAgMTUgMy4zNDVhNS43MzIgNS43MzIgMCAwIDEtMS42NS40NTIgMi44ODIgMi44ODIgMCAwIDAgMS4yNjMtMS41ODljLS41NjQuMzM1LTEuMTguNTctMS44MjQuNjk3YTIuODc1IDIuODc1IDAgMCAwLTQuODk1IDIuNjIgOC4xNTUgOC4xNTUgMCAwIDEtNS45Mi0zIDIuODc0IDIuODc0IDAgMCAwIC44OSAzLjgzMyAyLjg1IDIuODUgMCAwIDEtMS4zMDQtLjM2di4wMzdjMCAxLjM2OC45NjQgMi41NDUgMi4zMDQgMi44MTZhMi44NjggMi44NjggMCAwIDEtMS4yOTcuMDUgMi44NzYgMi44NzYgMCAwIDAgMi42ODQgMS45OTRBNS43NjMgNS43NjMgMCAwIDEgMSAxMi4wODVhOC4xMzIgOC4xMzIgMCAwIDAgNC40MDMgMS4yODkiLz48L3N2Zz4="
+                    alt="subfooter_section_bottom_list_image" class="subfooter_section_bottom_list_img">
+            </li>
+            <li class="subfooter_section_bottom_list">
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2IiBzdHlsZT0iZmlsbDpjdXJyZW50Q29sb3IiIGFyaWEtaGlkZGVuPSJ0cnVlIiBmb2N1c2FibGU9ImZhbHNlIj48cGF0aCBkPSJNMTUgOGE3IDcgMCAxIDAtOC4wOTQgNi45MTV2LTQuODkySDUuMTNWOGgxLjc3N1Y2LjQ1OGMwLTEuNzU1IDEuMDQ1LTIuNzI0IDIuNjQ0LTIuNzI0Ljc2NiAwIDEuNTY3LjEzNyAxLjU2Ny4xMzd2MS43MjNoLS44ODNjLS44NyAwLTEuMTQuNTQtMS4xNCAxLjA5M1Y4aDEuOTQxbC0uMzEgMi4wMjNIOS4wOTR2NC44OTJBNy4wMDIgNy4wMDIgMCAwIDAgMTUgOFoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+"
+                    alt="subfooter_section_bottom_list_image" class="subfooter_section_bottom_list_img">
+            </li>
+            <li class="subfooter_section_bottom_list">
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2IiBzdHlsZT0iZmlsbDpjdXJyZW50Q29sb3IiIGFyaWEtaGlkZGVuPSJ0cnVlIiBmb2N1c2FibGU9ImZhbHNlIj48cGF0aCBkPSJNNy45OTggNC45MThhMy4wOCAzLjA4IDAgMSAwIDAgNi4xNiAzLjA4IDMuMDggMCAwIDAgMC02LjE2Wm0wIDUuMDhhMiAyIDAgMSAxIDAtNCAyIDIgMCAwIDEgMCA0WiIgY2xpcC1ydWxlPSJldmVub2RkIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4KICAgIDxwYXRoIGQ9Ik0xMS4yIDUuNTE2YS43Mi43MiAwIDEgMCAwLTEuNDQuNzIuNzIgMCAwIDAgMCAxLjQ0WiIvPgogICAgPHBhdGggZD0iTTcuOTk4IDJjLTEuNjI5IDAtMS44MzMuMDA3LTIuNDczLjAzNi0uNjM4LjAzLTEuMDc0LjEzLTEuNDU2LjI3OWEyLjk0IDIuOTQgMCAwIDAtMS4wNjIuNjkyIDIuOTQgMi45NCAwIDAgMC0uNjkyIDEuMDYyYy0uMTQ4LjM4Mi0uMjUuODE4LS4yNzkgMS40NTYtLjAzLjY0LS4wMzYuODQ0LS4wMzYgMi40NzMgMCAxLjYzLjAwNyAxLjgzMy4wMzYgMi40NzMuMDMuNjM5LjEzIDEuMDc1LjI3OSAxLjQ1Ni4xNTMuMzk1LjM1OC43MjkuNjkyIDEuMDYzLjMzMy4zMzMuNjY4LjUzOCAxLjA2Mi42OTEuMzgyLjE0OS44MTguMjUgMS40NTYuMjguNjQuMDI4Ljg0NC4wMzUgMi40NzMuMDM1IDEuNjMgMCAxLjgzMy0uMDA3IDIuNDczLS4wMzYuNjM5LS4wMjkgMS4wNzUtLjEzIDEuNDU2LS4yNzlhMi45MzkgMi45MzkgMCAwIDAgMS4wNjMtLjY5MWMuMzMzLS4zMzQuNTM4LS42NjguNjkxLTEuMDYzLjE0OS0uMzgxLjI1LS44MTcuMjgtMS40NTYuMDI4LS42NC4wMzUtLjg0NC4wMzUtMi40NzNzLS4wMDctMS44MzMtLjAzNi0yLjQ3M2MtLjAyOS0uNjM4LS4xMy0xLjA3NC0uMjc5LTEuNDU2YTIuOTM5IDIuOTM5IDAgMCAwLS42OTEtMS4wNjIgMi45NCAyLjk0IDAgMCAwLTEuMDYzLS42OTJjLS4zODEtLjE0OC0uODE3LS4yNS0xLjQ1Ni0uMjc5QzkuODMxIDIuMDA2IDkuNjI3IDIgNy45OTggMlptMCAxLjA4YzEuNjAyIDAgMS43OTEuMDA3IDIuNDI0LjAzNi41ODUuMDI2LjkwMi4xMjQgMS4xMTQuMjA2LjI4LjExLjQ4LjIzOS42OS40NDkuMjEuMjEuMzQuNDEuNDQ4LjY5LjA4Mi4yMTEuMTguNTI5LjIwNyAxLjExMy4wMjguNjMzLjAzNC44MjMuMDM0IDIuNDI0IDAgMS42MDItLjAwNiAxLjc5MS0uMDM0IDIuNDI0LS4wMjcuNTg1LS4xMjUuOTAyLS4yMDcgMS4xMTQtLjEwOS4yOC0uMjM5LjQ4LS40NDkuNjktLjIxLjIxLS40MS4zNC0uNjkuNDQ4LS4yMS4wODItLjUyOC4xOC0xLjExMy4yMDctLjYzMy4wMjgtLjgyMi4wMzQtMi40MjQuMDM0LTEuNjAyIDAtMS43OTEtLjAwNi0yLjQyNC0uMDM0LS41ODQtLjAyNy0uOTAyLS4xMjUtMS4xMTMtLjIwN2ExLjg1OCAxLjg1OCAwIDAgMS0uNjktLjQ0OWMtLjIxLS4yMS0uMzQtLjQxLS40NDktLjY5LS4wODItLjIxLS4xOC0uNTI4LS4yMDYtMS4xMTMtLjAzLS42MzMtLjAzNS0uODIyLS4wMzUtMi40MjQgMC0xLjYwMS4wMDYtMS43OTEuMDM1LTIuNDI0LjAyNi0uNTg0LjEyNC0uOTAyLjIwNi0xLjExMy4xMS0uMjguMjM5LS40OC40NDktLjY5LjIxLS4yMS40MS0uMzQuNjktLjQ0OS4yMTEtLjA4Mi41MjktLjE4IDEuMTEzLS4yMDYuNjMzLS4wMy44MjMtLjAzNSAyLjQyNC0uMDM1WiIgY2xpcC1ydWxlPSJldmVub2RkIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4="
+                    alt="subfooter_section_bottom_list_image" class="subfooter_section_bottom_list_img">
+            </li>
+        </ul>
+    </div>
+    </div>
+</body>
+
+</html>
